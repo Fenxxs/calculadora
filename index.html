@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/2188f56aa7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <article>
+        <div id="calc">
+            <div id="visor">
+                <p id="resultado2"></p>
+                <p id="resultado1">0</p>
+            </div>
+            <div id="interacao">
+                <div id="opsCima">
+
+                    <button value="ce" onclick="calc(value)">CE</button>
+                    <button value="c" onclick="calc(value)">C </button>
+                    <button value="apagar" onclick="calc(value)"><i class="fas fa-backspace"></i></button>
+                </div>
+                <div id="opsLado">
+                    <button value="/" onclick="calc(value)"><i class="fas fa-divide"></i></button>
+                    <button value="*" onclick="calc(value)"><i class="fas fa-times"></i></button>
+                    <button value="-" onclick="calc(value)"><i class="fas fa-minus"></i></button>
+                    <button value="+" onclick="calc(value)"><i class="fas fa-plus"></i></button>
+                    <button value="=" onclick="calc(value)"><i class="fas fa-equals"></i></button>
+                </div>
+
+                <div id="nums">
+                    <button value="9" onclick="calc(value)">9</button>
+                    <button value="8" onclick="calc(value)">8</button>
+                    <button value="7" onclick="calc(value)">7</button>
+                    <button value="6" onclick="calc(value)">6</button>
+                    <button value="5" onclick="calc(value)">5</button>
+                    <button value="4" onclick="calc(value)">4</button>
+                    <button value="3" onclick="calc(value)">3</button>
+                    <button value="2" onclick="calc(value)">2</button>
+                    <button value="1" onclick="calc(value)">1</button>
+                    <button value="." onclick="calc(value)">.</button>
+                    <button value="0" onclick="calc(value)">0</button>
+                    <button value="+/-" onclick="calc(value)">+/-</button>
+                </div>
+            </div>
+        </div>
+
+    </article>
+</body>
+
+</html>
